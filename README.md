@@ -4,7 +4,7 @@ To fully Dockerize PEcAn, I am thinking of following this strategy:
 2. Using the above image(s) in a docker-compose file, also using official images (Postgres).
 3.  Trying everything out as a Kubernetes cluster.
 
-#Usage Example
+# Usage Example
 
 Implemetning as a docker-compose.yml file.
 
@@ -30,6 +30,5 @@ pecan-cmd:
   .
   .
   .
- ```
-
-			       with this, we can setup reactome.
+```
+with this, we can setup PEcAn.
